@@ -1,4 +1,6 @@
+import 'package:e_commerce_app/utilities/app_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class IconTextWidget extends StatelessWidget {
   final IconData icon;
@@ -22,7 +24,10 @@ class IconTextWidget extends StatelessWidget {
         const SizedBox(
           width: 5,
         ),
-        Text(text),
+        Text(
+          text,
+          style: GoogleFonts.roboto(color: AppColors.textColor),
+        ),
       ],
     );
   }

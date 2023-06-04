@@ -34,8 +34,8 @@ class _MainFoodViewState extends State<MainFoodView> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      BigTextWidget(
-                        text: widget.title,
+                      const BigTextWidget(
+                        text: "Palstine",
                         color: AppColors.mainColor,
                       ),
                       Row(
